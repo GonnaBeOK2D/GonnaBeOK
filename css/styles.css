@@ -1,0 +1,123 @@
+/***************** TAG ****************/
+
+body {
+	line-height: 2;
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: #84a9ac;
+}
+
+h1, h3 {
+	color: #e4e3e3;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	margin-left: 3%;
+	color: #204051;
+}
+
+a {
+	color: #204051;
+	margin: 0 3%;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+a:hover {
+	color: #e4e3e3;
+}
+
+img {
+	border-radius: 100%;
+	width: 25%;
+}
+
+hr {
+	width: 15%;
+	border : none;
+	border-top: dotted 8px #204051;
+	margin: 10% auto;
+}
+
+/***************** CLASS ****************/
+
+.cleared-left {
+	clear: left;
+}
+
+.main-title {
+	line-height: 1.5;
+	text-align: left;
+	margin-top: 10%;
+}
+
+.screenshot {
+	border-radius: 20px;
+	width: 100%;
+}
+
+.btn {
+	background-color: #204051;
+	color: white;
+	border-radius: 1rem;
+	padding: 1%;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
+}
+
+/***************** ID ****************/
+
+#home-panel {
+	padding-top: 1%;
+	border-bottom: solid;
+	background-color: #3b6978;
+	border-bottom-left-radius: 5rem;
+	border-bottom-right-radius: 5rem; 
+}
+
+#top-container {
+	padding: 5% 5%;
+	text-align: center;
+	background-color: #84a9ac;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#bottom-container {
+	border-top: solid;
+	background-color: #204051;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem; 
+}
+
+#screenshots-corner {
+	text-align: left;
+}
+
+#gonnabeok {
+	margin: 0.5% 5% 1% 10%;
+	float: left;
+	border-radius: 100%;
+	border: solid;
+	width: 25%;
+}
+
+#birds {
+	margin: 0.5% 10% 1% 5%;
+	float: right;
+}
+
+#copyright {
+	clear: left;
+	clear: right;
+	margin: auto;
+	font-size: 80%;
+	color: #e4e3e3;
+}
