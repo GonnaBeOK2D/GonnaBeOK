@@ -7,11 +7,13 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #84a9ac;
+	font-family: 'Do Hyeon', sans-serif;
 }
 
-h1, h3 {
+h1, h2, h3 {
 	color: #e4e3e3;
 	margin: 0;
+	font-family: 'Merienda One', cursive;
 }
 
 p {
@@ -53,7 +55,7 @@ hr {
 	line-height: 1.5;
 	text-align: left;
 	margin-top: 10%;
-	font-size: 1.5vw;
+	font-size: 1.3vw;
 }
 
 .screenshot {
